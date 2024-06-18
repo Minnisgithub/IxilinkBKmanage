@@ -1,0 +1,97 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+@import "./transition.scss";
+@import "./element-ui.scss";
+@import "./sidebar.scss";
+
+body {
+  // height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 黑体,Arial;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height:100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+.mb20{
+  margin-bottom: 20px;
+}
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+.content-container {
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #fff;
+  .button-list {
+    margin: 10px 0;
+    .addButton{
+      background-color: #409EFF;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+.content-header {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.content-drawer {
+  min-height: calc(100vh - 264px);
+  overflow: hidden;
+  position: relative;
+}
+.flex-space-around{
+  display: flex;
+  justify-content: space-around;
+}
+.flex{
+  display:flex;
+}

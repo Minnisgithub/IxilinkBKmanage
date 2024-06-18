@@ -1,0 +1,97 @@
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload input[type="file"] {
+  display: none !important;
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+.upload-container .el-upload {
+  width: 100%;
+}
+
+.upload-container .el-upload .el-upload-dragger {
+  width: 100%;
+  height: 200px;
+}
+
+.el-dropdown-menu a {
+  display: block;
+}
+
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+.el-menu-item.is-active {
+  background-color: #fff !important;
+}
+
+.search-header .el-form-item {
+  margin-bottom: 0;
+}
+
+.el-drawer__body {
+  padding: 0 20px;
+}
+
+.el-drawer__body .basic-msg {
+  font-size: 12px;
+  color: #aeaeae;
+  margin-bottom: 20px;
+}
+
+.el-drawer__header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c1c8d5;
+  margin-bottom: 10px;
+}
+
+.el-dialog {
+  width: 600px;
+}
+
+.el-dialog .el-input__inner {
+  width: 300px;
+}
+
+.el-menu-item {
+  font-size: 16px;
+}
+
+.el-submenu__title {
+  font-size: 16px;
+}
+
+.el-breadcrumb__item {
+  color: #000 !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.no-redirect {
+  color: #000 !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.el-table thead {
+  color: #000;
+}
+
+.el-table {
+  color: #000;
+}
